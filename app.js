@@ -21,7 +21,7 @@ function readTextFile(file)
 readTextFile("liste.txt");
 
 
-let tabListes = allText.split(')').reverse();
+let tabListes = allText.split(')');
 
 formulaire = document.createElement('FORM');
 formulaire.setAttribute('class', 'text-center mt-3')
